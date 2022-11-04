@@ -14,7 +14,7 @@ spec:
         app.kubernetes.io/name: vault
       annotations:
         vault.security.banzaicloud.io/vault-addr: "https://vault.bankvault:8200" 
-        vault.security.banzaicloud.io/vault-role: "freshly" 
+        vault.security.banzaicloud.io/vault-role: "company" 
         vault.security.banzaicloud.io/vault-skip-verify: "true" 
         vault.security.banzaicloud.io/vault-tls-secret: "vault-tls" 
         vault.security.banzaicloud.io/vault-agent: "false" 

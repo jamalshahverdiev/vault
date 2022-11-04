@@ -63,7 +63,7 @@ spec:
             policies: company
       - type: github
         config:
-          organization: Freshly
+          organization: Organization
         map:
           teams:
             company: company
