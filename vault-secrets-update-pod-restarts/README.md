@@ -9,7 +9,7 @@ $ docker push docker.registry.domain/company-images/company/vaultagent:v1
 #### Now we need to add following annotation in our application deployment (https://developer.hashicorp.com/vault/docs/platform/k8s/injector/annotations#vault-hashicorp-com-log-level):
 
 ```bash
-vault.hashicorp.com/agent-inject-secret-config: company/address-service
+vault.hashicorp.com/agent-inject-secret-config: company/account-service
 vault.hashicorp.com/agent-image: docker.registry.domain/company-images/company/vaultagent:v1
 vault.hashicorp.com/agent-inject-command-config: "sh /opt/restart_deployment.sh"
 ```
