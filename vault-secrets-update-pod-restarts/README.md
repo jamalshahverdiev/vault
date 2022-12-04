@@ -6,7 +6,7 @@ $ docker push docker.registry.domain/company-images/company/vaultagent:v1
 ```
 
 
-#### Now we need to add following annotation in our application deployment (https://developer.hashicorp.com/vault/docs/platform/k8s/injector/annotations#vault-hashicorp-com-log-level):
+#### Now we need to add following [annotations](https://developer.hashicorp.com/vault/docs/platform/k8s/injector/annotations) in our application deployment:
 
 ```bash
 vault.hashicorp.com/agent-inject-secret-config: company/account-service
